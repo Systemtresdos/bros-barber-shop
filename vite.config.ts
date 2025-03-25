@@ -22,4 +22,8 @@ export default defineConfig({
             'ziggy-js': resolve(__dirname, 'vendor/tightenco/ziggy'),
         },
     },
+    server: {
+        host: '0.0.0.0', // Permitir acceso externo
+        port: 5173,      // Asegúrate de usar este puerto o el que prefieras
+    },
 });
