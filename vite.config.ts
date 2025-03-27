@@ -26,7 +26,8 @@ export default defineConfig({
         host: '0.0.0.0', // Permitir acceso externo
         port: 8000,      // Asegúrate de usar este puerto o el que prefieras
         hmr: {
-            host: '10.0.0.8' // Esto es importante para que HMR funcione en otros dispositivos
+            host: '192.168.25.253' // Esto es importante para que HMR funcione en otros dispositivos
+                                    // Cambia la IP por la de tu máquina
         },
     },
 });
